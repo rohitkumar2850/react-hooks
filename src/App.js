@@ -20,6 +20,7 @@ import ComponentC from "./useReducer_with_useContext/ComponentC";
 import DataFetchingOne from "./fetching_data_with_useReducer/DataFetchingOne";
 import DataFetchingTwo from "./fetching_data_with_useReducer/DataFetchingTwo";
 import ParentComponenet from "./callback_hook/ParentComponenet";
+import Counter from "./memo_hook/Counter";
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
 
@@ -39,14 +40,18 @@ const reducer = (state, action) => {
   }
 };
 
-function App(){
+function App() {
   return (
-    <div>
-    <ParentComponenet />
-    {/* <DataFetchingTwo /> */}
-    {/* <DataFetchingOne /> */}
+    <div className="App">
+      <div>
+
+        <Counter />
+        {/* <ParentComponenet /> */}
+        {/* <DataFetchingTwo /> */}
+        {/* <DataFetchingOne /> */}
+      </div>
     </div>
-  )
+  );
 }
 
 // function App() {
