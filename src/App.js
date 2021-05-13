@@ -19,6 +19,7 @@ import ComponentB from "./useReducer_with_useContext/ComponentB";
 import ComponentC from "./useReducer_with_useContext/ComponentC";
 import DataFetchingOne from "./fetching_data_with_useReducer/DataFetchingOne";
 import DataFetchingTwo from "./fetching_data_with_useReducer/DataFetchingTwo";
+import ParentComponenet from "./callback_hook/ParentComponenet";
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
 
@@ -41,7 +42,8 @@ const reducer = (state, action) => {
 function App(){
   return (
     <div>
-    <DataFetchingTwo />
+    <ParentComponenet />
+    {/* <DataFetchingTwo /> */}
     {/* <DataFetchingOne /> */}
     </div>
   )
