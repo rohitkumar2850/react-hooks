@@ -11,8 +11,8 @@ import IntervalHookCounter from "./component_useEffect/IntervalHookCounter";
 import MouseContainer from "./component_useEffect/MouseContainer";
 import DataFetching from "./data_fetching_useEffect/DataFetching";
 //import ComponentC from "./useContext_Hook/ComponentC";
-import CounterOne from "./useReducer_hook/CounterOne";
-import CounterTwo from "./useReducer_hook/CounterTwo";
+//import CounterOne from "./useReducer_hook/CounterOne";
+//import CounterTwo from "./useReducer_hook/CounterTwo";
 import CounterThree from "./useReducer_hook/CounterThree";
 import ComponentA from "./useReducer_with_useContext/ComponentA";
 import ComponentB from "./useReducer_with_useContext/ComponentB";
@@ -23,6 +23,11 @@ import ParentComponenet from "./callback_hook/ParentComponenet";
 import Counter from "./memo_hook/Counter";
 import FocusInput from "./useRef_hook/FocusInput";
 import HookTimer from "./useRef_hook/HookTimer";
+import DocTitleOne from "./custom_hook/DocTitleOne";
+import DocTitleTwo from "./custom_hook/DocTitleTwo";
+import CounterOne from "./custom_hook/CounterOne";
+import CounterTwo from "./custom_hook/CounterTwo";
+import UserForm from "./custom_hook/UserForm";
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
 
@@ -46,7 +51,12 @@ function App() {
   return (
     <div className="App">
       <div>
-      <HookTimer />
+      <UserForm />
+      {/* <CounterOne />
+      <CounterTwo /> */}
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+      {/* <HookTimer /> */}
         {/* <FocusInput /> */}
         {/* <Counter /> */}
         {/* <ParentComponenet /> */}
